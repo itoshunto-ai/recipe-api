@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS recipes;
 
 CREATE TABLE IF NOT EXISTS recipes (
-  id integer PRIMARY KEY AUTO_INCREMENT,
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
   -- name of recipe
   title varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   -- time required to cook/bake the recipe
